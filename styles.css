@@ -1,0 +1,25 @@
+
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+.gridLayer {
+    
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px);
+    grid-gap: 2px;
+}
+
+
+.cells {
+   
+    border: 2px solid black;
+}
