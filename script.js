@@ -1,3 +1,16 @@
+let header = document.querySelector("#header");
+
+let title = document.createElement("h1");
+title.textContent = "Etch-A-Sketch";
+title.classList.add("title");
+
+header.appendChild(title);
+
+
+
+
+
+
 
 
 const container = document.querySelector("#container");
