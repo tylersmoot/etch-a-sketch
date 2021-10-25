@@ -4,23 +4,24 @@ let title = document.createElement("h1");
 
 let clearBtn = document.getElementById("clear");
 
+let cells;
+
 
 
 clearBtn.addEventListener("click", () => {
 
 
      all = document.querySelectorAll(".cells");
-     all.forEach(item => {
+
+       all.forEach(item => {
+
          item.style.background = "white";
+
      })
 
-   let input = prompt("how many squares per side would you like?");
-   
+});
 
-console.log(input);
-    
 
-})
 
 
 
@@ -60,34 +61,6 @@ createCells();
 
 
 
-// function newCells() {
-
-//    for(let i = 0; i < input; i++) {
-        
-//     cells = document.createElement("div");
-
-//       cells.classList.add("cells");
-
-//         grid.appendChild(cells);
-    
-// }  
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this function creates 256 individual div cells inside the grid and appends inside the grid element
 
 function createCells () {
@@ -104,6 +77,9 @@ function createCells () {
 }
 
 container.appendChild(grid);
+
+
+
 
 
 
